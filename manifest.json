@@ -1,0 +1,17 @@
+﻿{
+  "name": "ttw-fix",
+  "version": "1.0",
+  "manifest_version": 2,
+  "author": "Sviataslau Seviaryn",
+  "description": "Исправляет размер страницы на форуме TTW.ru",
+  "content_scripts": [
+    {
+      "js": [
+        "jquery.min.js","content.js"
+      ],
+      "matches": [
+        "http://ttw.ru/forums/*"
+      ]
+    }
+  ]
+}
